@@ -3,7 +3,9 @@
 //
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	{"♫ ",  "volume",					0,		10},
+	{"♫ ",  "status_volume",					0,		10},
+	{"",  "status_battery",					60,		10},
+	{"",  "status_time",					60,		10},
 
 	//{"", "cat ~/.pacupdate | sed /📦0/d",					0,		9},
 	
@@ -21,4 +23,4 @@ static const Block blocks[] = {
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
-static char delim = '|';
+static char delim = ' ';
