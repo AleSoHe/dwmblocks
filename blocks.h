@@ -6,10 +6,11 @@ static const Block blocks[] = {
     {" | ⧗ " ,"pomodoro read",   0,                                 8},
     {" | "   ,  "status_battery",  60,                               9},
     {" | 🕒 ",  "status_time",     60,                               9},
-    {" | 🔊 ", "status_volume",   0,                                10},
+    {" | 🔊 ", "status_volume 3",   0,                                10},
     {" | ", "status_storage",   60,                                10},
     {" | ", "status_ram",   20,                                10},
     {" | 🌐 ", "status_ip",   600,                                10}, // Each hour
+    {" | ", "notifications get",   60,                                2},
 
 	//{"", "cat ~/.pacupdate | sed /📦0/d",					0,		9},
 	
